@@ -2,6 +2,13 @@
 
 **Title: Optimising Transformers for Protein Structure Prediction and Visualisation**
 
+## Abstract
+Proteins are seen as life's building blocks and play vital roles in the cell, such as transport, tissue formation, and immune responses. Proteins comprise amino acids with unique chemical properties and behaviour determined by their sidechain group. Predicting a protein's 3D structure from its amino acid sequence is one of the most critical challenges in bioinformatics. While experimental methods have yielded successful results, they can be expensive and slow. Traditional machine learning methods are faster but do not scale well to extensive protein data. Recent progress in deep learning, specifically transformer-based architectures, has shown success in addressing these challenges. 
+
+This study presents a protein structure prediction system that implements a transformer that predicts sidechain angles and reconstructs the 3D structure of a protein. This study involved training the model on two different input configurations: one using only the amino acid sequence and the second incorporating additional structural features. 
+
+The optimised additional features model achieved the best performance with a Root Mean Squared Error (RMSE) of 0.244 and a Root Mean Squared Deviation (RMSD) of 1.41 Angstroms. These results show that structural features are beneficial to the model's learning and prediction accuracy. The proposed system contributes to more precise sidechain angle prediction, to assist in drug design and potential disease treatments.
+
 ## Overview
 This project explores transformer-based architectures for sidechain angle prediction to construct the 3D structure of a protein using the CASP12 dataset available from SidechainNet. 
 
